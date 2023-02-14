@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 // solhint-disable not-rely-on-time
-pragma solidity ^0.8.13;
+pragma solidity ^0.8.17;
 
 import {IERC20} from "openzeppelin/token/ERC20/ERC20.sol";
 import {ReentrancyGuard} from "solmate/utils/ReentrancyGuard.sol";

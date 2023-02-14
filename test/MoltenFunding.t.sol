@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+pragma solidity ^0.8.17;
 
 import {Test} from "forge-std/Test.sol";
 
@@ -116,8 +116,8 @@ contract RefundTest is DepositTestBase {
 }
 
 contract ExchangeTest is ExchangeTestBase {
-    function testSetExchangeTime() public view {
-        assert(moltenFunding.exchangeTime() > 0);
+    function testSetExchangeTime() public {
+        assertTrue(moltenFunding.exchangeTime() > 0);
     }
 
     function testTransfersDaoTokensToContract() public {

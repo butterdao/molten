@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 // solhint-disable no-empty-blocks
-pragma solidity ^0.8.13;
+pragma solidity ^0.8.17;
 
 import {ERC20, ERC20Pausable, Pausable} from "openzeppelin/token/ERC20/extensions/ERC20Pausable.sol";
 import {Owned} from "solmate/auth/Owned.sol";

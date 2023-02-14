@@ -1,4 +1,4 @@
-pragma solidity ^0.8.13;
+pragma solidity ^0.8.17;
 
 contract OracleConsulterMock {
     uint256 public returnValue;

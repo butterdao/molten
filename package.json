@@ -4,7 +4,9 @@
   "name": "@buttergov/molten-core",
   "version": "0.1.0",
   "description": "Molten core contracts",
-  "files": ["out/"],
+  "files": [
+    "out/"
+  ],
   "directories": {
     "lib": "lib",
     "test": "test"

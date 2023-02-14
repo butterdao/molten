@@ -1,4 +1,4 @@
-pragma solidity ^0.8.13;
+pragma solidity ^0.8.17;
 
 import {IUniswapV3OracleConsulter} from "molten-oracle/interfaces/IUniswapV3OracleConsulter.sol";
 
